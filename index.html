@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>🎉 Dive Into the World of Interactive Web Wonders with Javascript! 🎉</h1>
+    </header>
+
+    <!-- Button Click & Hover Effects Section -->
+    <section id="event-handling">
+      <h2>UX Interactions</h2>
+      <button id="btnChangeText" class="interactive-btn">Click me to change text!</button>
+      <button id="btnHoverEffect" class="interactive-btn">Hover over me👏</button>
+      <input type="text" id="keypressInput" placeholder="Type something..." />
+      <p id="keypressMessage"></p>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="image-gallery">
+      <h2>Javascript Image Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 1" class="gallery-item" width="30%"/>
+        <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2" class="gallery-item" width="30%"/>
+        <img src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3" class="gallery-item" width="40%"/>
+        <img src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 4" class="gallery-item" width="30%"/>
+        <img src="https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 5" class="gallery-item" width="40%"/>
+      </div>
+    </section>
+
+    <!-- Accordion Section -->
+    <section id="accordion">
+      <h2>Detailed Information</h2>
+      <div class="accordion">
+        <!--first section: Explore more section-->
+        <button class="accordion-btn">Explore more</button>
+        <div class="accordion-content">
+          <p class="title">Quick guide</p>
+          <p>Marking websites to appear attractive with javascript</p><br>
+          <p>For additional resources to learning how to make your websites more interactive click the link below</p>
+          <p><a href="https://www.w3schools.com/js/js_htmldom.asp" class="link">Javascript HTML from scratch</a></p>
+          <p><a href="https://youtu.be/MBaw_6cPmAw" class="link">YouTube video for creating modals using HTMl, CSS, Javascript</a></p>
+          <p><h5>Image of some interactive websites</h5></p>
+          <div class="gallery">
+            <img src="https://images.pexels.com/photos/1581613/pexels-photo-1581613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pexels web image" class="gallery-item">
+            <img src="https://images.pexels.com/photos/5494323/pexels-photo-5494323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="chrome web page" class="gallery-item">
+            <img src="https://images.pexels.com/photos/1138735/pexels-photo-1138735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="facebook login image" class="gallery-item">
+          </div><br>
+        </div>
+        <!--second section: FAQS section-->
+        <button class="accordion-btn">FAQs (Frequently Asked Questions)</button>
+        <div class="accordion-content">
+          <section class="quote-section">
+            <h2>💬 Some of the FAQs</h2>
+            <ol class="quote-list">
+              <li>
+                <blockquote>
+                  "Show me how to create a modal in JavaScript step by step, with dynamic content loading."
+                  <cite>- Hazel Dap</cite>
+                </blockquote>
+              </li>
+              <li>
+                <blockquote>
+                  "Explain how to use JavaScript to toggle visibility of elements on a webpage."
+                  <cite>- Jason Flankline</cite>
+                </blockquote>
+              </li>
+              <li>
+                <blockquote>
+                  "How can I provide real-time feedback to users filling out a form using JavaScript?"
+                  <cite>- Mercy Fliking</cite>
+                </blockquote>
+              </li>
+              <li>
+                <blockquote>
+                  "How can I prevent default actions for events like form submission? Provide examples."
+                  <cite>- John Carson</cite>
+                </blockquote>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Validation Section -->
+    <section id="form-validation">
+      <h2>Enter your credentials</h2>
+      <form id="registrationForm">
+        <label>Username: <input type="text" id="username" required /></label>
+        <label>Email: <input type="email" id="email" required /></label>
+        <label>Password: <input type="password" id="password" required /></label>
+        <button type="submit" class="btn">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+    <!--footer section-->
+    <footer>
+      <p>&copy; 2025 Web Developers | Javascript Professors</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
